@@ -30,7 +30,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "all"
+        default: "s905x3-x96max"
         type: choice
         options:
           - all
